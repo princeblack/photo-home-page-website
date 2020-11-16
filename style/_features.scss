@@ -1,0 +1,57 @@
+$photoColor: #de6d03;
+
+
+.features-container{
+    background: #323232;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    min-width: 280px;
+    .wave{
+        position: absolute;
+        left: 0;
+        bottom: -14%;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+.features{
+    min-height: 90vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        .card{
+            margin: 0rem 4rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 2rem;
+            overflow: hidden;
+            max-width: 270px;
+            img{
+                object-fit: cover;
+                max-width: 270px;
+            }
+            .card-info{
+                background-color: black;
+                color: white;
+                
+                h4{
+                    margin:  3rem 0rem 1rem 0rem;
+                }
+                p{
+                    padding: 2rem;
+                }
+            }
+            }
+            
+    }
+
+}
